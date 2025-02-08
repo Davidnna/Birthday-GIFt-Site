@@ -16,14 +16,14 @@ h1, h2, h3, h4, p {
     margin-bottom: 10px;
 }
 
-#bday-age {
+#birthday-age {
     background: #EFB0C9;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
 }
 
-#bday-date {
+#birthday-date {
     margin: 0;
     background: #EFB0C9;
     padding: 5px 10px;
@@ -74,8 +74,8 @@ h1, h2, h3, h4, p {
     background-image: url("images/genius.gif");
 }
 
-#gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+#gift-img-bad-ass:hover {
+    background-image: url("images/bad-ass.gif");
 }
 
 #gift-img-cheers:hover {
@@ -84,22 +84,9 @@ h1, h2, h3, h4, p {
 
 #footer {
     font-style: italic;
-    width: 400px;
     margin: 40px auto 20px;
 }
 
 a {
     color: white;
 }
-
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
