@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    text-shadow: 0 0 1px black;
+}
+
+/* Header */
+#header #bff-img {
+    width: 9.5em;
+    border-radius: 50%;
+    border: 0.4em solid #EFB0C9;
+}
+
+#header #birthday-age {
+    background: #EFB0C9;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+    margin: 0.6em auto 0.5em;
+    width: max-content;
+}
+
+#header #birthday-date {
+    margin: 0 auto;
+    width: max-content;
+    background: #EFB0C9;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+/* Main */
+.gift-section {
+    margin-top: 3em;
+}
+
+.gift-section hgroup .gift-title {
+    margin-bottom: 0.5em;
+}
+
+.gift-section hgroup .gift-hint {
+    margin: 0;
+}
+
+.gift-section .gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("../images/gift-cover.jpg");
+    /* background-image: url("https://i.postimg.cc/9XBT1ctw/gift-cover.jpg"); */
+    background-size: cover;
+    cursor: pointer;
+}
+
+#gift-img-happy.show, #gift-img-happy:hover {
+    background-image: url("../images/happy.gif");
+    /* background-image: url("https://i.postimg.cc/kg2bnKrW/happy.gif"); */
+}
+
+#gift-img-hot.show, #gift-img-hot:hover {
+    background-image: url("../images/hot.gif");
+    /* background-image: url("https://i.postimg.cc/zBFLdkWY/hot.gif"); */
+}
+
+#gift-img-genius.show, #gift-img-genius:hover {
+    background-image: url("../images/genius.gif");
+    /* background-image: url("https://i.postimg.cc/BQQFVRMY/genius.gif"); */
+}
+
+#gift-img-bad-ass.show, #gift-img-bad-ass:hover {
+    background-image: url("../images/bad-ass.gif");
+    /* background-image: url("https://i.postimg.cc/Ssh27PnG/badass.gif"); */
+}
+
+.gift-section .gift-img#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers.show, #gift-img-cheers:hover {
+    background-image: url("../images/cheers.gif");
+    /* background-image: url("https://i.postimg.cc/8CWfvGz5/cheers.gif"); */
+}
+
+/* Footer */
+footer {
+    font-style: italic;
+    margin: 40px auto 20px;
+}
+
+footer #footer a {
+    color: white;
+}

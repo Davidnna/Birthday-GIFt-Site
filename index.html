@@ -7,48 +7,65 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
         <link rel="icon" type="image/jpg" href="images/gift-cover.jpg">
-        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="icon" type="image/jpg" href="https://i.postimg.cc/9XBT1ctw/gift-cover.jpg"> -->
+        <link rel="stylesheet" href="styles/styles.css">
         <title>Birthday-GIFt-Site</title>
     </head>
     <body>
-        <div id="header">
+        <!-- Header -->
+        <header id="header">
             <h1>Today is Nick's birthday 🎉</h1>
             <img id="bff-img" src="images/nick.jpg" alt="Nick's Picture">
+            <!-- <img id="bff-img" src="https://i.postimg.cc/8zxrscD9/nick.jpg" alt="Nick's Picture"> -->
             <h2 id="birthday-age">24 years old</h2>
             <h4 id="birthday-date">01.11.2022</h4>
-        </div>
+        </header>
         
-        <div class="gift-section">
-            <h2 class="gift-title">Here's how happy I am for you today 🥳</h2>
-            <h3 class="gift-hint">(Hover over the gift)</h3>
-            <div class="gift-img" id="gift-img-happy"></div>
-        </div>
+        <!-- Main -->
+        <main>
+            <!-- Happy -->
+            <div class="gift-section">
+                <hgroup>
+                    <h2 class="gift-title">Here's how happy I am for you today 🥳</h2>
+                    <h3 class="gift-hint">(Click or Hover over the gift)</h3>
+                </hgroup>
+                <div class="gift-img" id="gift-img-happy"></div>
+            </div>
+            
+            <!-- Hot -->
+            <div class="gift-section">
+                <h2 class="gift-title">How people react when you enter the room 😍</h2>
+                <div class="gift-img" id="gift-img-hot"></div>
+            </div>
+            
+            <!-- Genius -->
+            <div class="gift-section">
+                <h2 class="gift-title">If I had to describe you with ONE word 👇</h2>
+                <div class="gift-img" id="gift-img-genius"></div>
+            </div>
+            
+            <!-- Bad ass -->
+            <div class="gift-section">
+                <h2 class="gift-title">The only person as bad ass as you 💪</h2>
+                <div class="gift-img" id="gift-img-bad-ass"></div>
+            </div>
+            
+            <!-- Cheers -->
+            <div class="gift-section">
+                <h2 class="gift-title">This one's for you, my friend 🥂</h2>
+                <div class="gift-img" id="gift-img-cheers"></div>
+            </div>
+        </main>
         
-        <div class="gift-section">
-            <h2 class="gift-title">How people react when you enter the room 😍</h2>
-            <div class="gift-img" id="gift-img-hot"></div>
-        </div>
-        
-        <div class="gift-section">
-            <h2 class="gift-title">If I had to describe you with ONE word 👇</h2>
-            <div class="gift-img" id="gift-img-genius"></div>
-        </div>
-        
-        <div class="gift-section">
-            <h2 class="gift-title">The only person as bad ass as you 💪</h2>
-            <div class="gift-img" id="gift-img-bad-ass"></div>
-        </div>
-        
-         <div class="gift-section">
-            <h2 class="gift-title">This one's for you, my friend 🥂</h2>
-            <div class="gift-img" id="gift-img-cheers"></div>
-        </div>
-        
-        <p id="footer">
-            Want to create your own Birthday GIFt site? Take <br>
-            <a href="https://scrimba.com/learn/htmlandcss" target="_blank" rel="noopener noreferrer">
-                this HTML & CSS course.
-            </a>
-        </p>
+        <!-- Footer -->
+        <footer>
+            <p id="footer">
+                Want to create your own Birthday GIFt site? Take <br>
+                <a href="https://scrimba.com/learn/htmlandcss" target="_blank" rel="noopener noreferrer">
+                    this HTML & CSS course.
+                </a>
+            </p>
+        </footer>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
